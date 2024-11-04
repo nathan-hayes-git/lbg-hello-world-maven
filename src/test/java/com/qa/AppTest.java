@@ -43,4 +43,17 @@ public class AppTest
         // Assert
         assertEquals( expectedResponse, actualResponse);
     }
+
+    @Test
+    public void test_introduceSelf_should_return_introduction()
+    {
+        // Arrange
+        String actualResponse = "";
+        String expectedResponse = "I am lbg-hello-world-maven. It's nice to meet you!!";
+
+        // Act
+        actualResponse = sayHello();
+        // Assert
+        assertEquals( expectedResponse, actualResponse);
+    }
 }

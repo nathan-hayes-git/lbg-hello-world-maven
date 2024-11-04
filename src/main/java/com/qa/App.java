@@ -14,6 +14,7 @@ public class App
         System.out.println(sayHelloToSomeone("Charlie"));
         System.out.println(sayHelloToSomeone("Zena"));
         System.out.println(sayHelloToSomeone("Nathan!"));
+        System.out.println(introduceSelf());
         System.out.println(sayGoodbye());
     }
 
@@ -27,5 +28,10 @@ public class App
 
     public static String sayHelloToSomeone(String name){
         return "Hello " + name ;
+    }
+
+    public static String introduceSelf(){
+        return "";
+        // return "I am lbg-hello-world-maven. It's nice to meet you!";
     }
 }
