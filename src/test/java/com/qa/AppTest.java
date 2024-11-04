@@ -52,7 +52,7 @@ public class AppTest
         String expectedResponse = "I am lbg-hello-world-maven. It's nice to meet you!!";
 
         // Act
-        actualResponse = sayHello();
+        actualResponse = introduceSelf();
         // Assert
         assertEquals( expectedResponse, actualResponse);
     }
