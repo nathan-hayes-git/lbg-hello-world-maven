@@ -31,7 +31,7 @@ public class App
     }
 
     public static String introduceSelf(){
-        return "";
-        // return "I am lbg-hello-world-maven. It's nice to meet you!";
+        // return "";
+        return "I am lbg-hello-world-maven. It's nice to meet you!";
     }
 }
