@@ -50,7 +50,7 @@ public class AppTest
     {
         // Arrange
         String actualResponse = "";
-        String expectedResponse = "I am lbg-hello-world-maven. It's nice to meet you!!";
+        String expectedResponse = "I am lbg-hello-world-maven. It's nice to meet you!";
 
         // Act
         actualResponse = introduceSelf();
